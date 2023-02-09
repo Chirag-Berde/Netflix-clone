@@ -1,6 +1,6 @@
 .background-banner {
     background-image: linear-gradient(45deg,
-    rgb(51 43 43 / 75%),
+            rgb(51 43 43 / 75%),
             rgb(20 19 20 / 61%)), url(./Images/background-banner.jpg);
     max-height: 100%;
     background-repeat: no-repeat;
@@ -21,6 +21,16 @@
 .home-content p {
     font-size: 18px;
 }
-.footer-custom ul li{
+
+.footer-custom ul li {
     list-style: none;
+}
+
+.button:hover {
+    cursor: pointer;
+}
+/* netflix content image css */
+.netflix-content:hover{
+     transform: translateY(-6px);
+     cursor: pointer;
 }
