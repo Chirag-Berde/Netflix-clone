@@ -43,14 +43,14 @@
 .netflix-content:hover {
   transform: scale(1.1);
   cursor: pointer;
-  transition: .5s;
+  transition: 0.5s;
 }
 
 /* footer arrow css */
 .arrow {
   float: right;
   border: 2px solid white;
-  padding: 14px 24px;
+  padding: 8px 18px;
   border-radius: 50%;
   font-size: 20px;
 }
@@ -59,6 +59,14 @@
 }
 
 @media only screen and (max-width: 768px) {
+  /* navbar */
+  .logo-custom {
+    margin-left: 12px !important;
+  }
+  .background-banner .sticky-top div:nth-child(2){
+    margin-right: 10px !important;
+  }
+
   /* home content media queries */
   .home-content .heading-custom {
     text-align: center;
@@ -83,7 +91,9 @@
     height: 100%;
   }
 
-  .second-content p,.third-content p, .forth-content p{
+  .second-content p,
+  .third-content p,
+  .forth-content p {
     font-size: 15px !important;
   }
 
@@ -92,7 +102,7 @@
     text-align: center;
   }
 
-  .second-content .row div:nth-child(2){
+  .second-content .row div:nth-child(2) {
     margin-top: 0 !important;
   }
   /* third section */
@@ -106,18 +116,19 @@
     flex-direction: column-reverse;
   }
 
-  .third-content img{
+  .third-content img {
     width: 100%;
     height: 100%;
     margin-left: 0 !important;
   }
   /* forth content css */
-  .forth-content p, .forth-content h1 {
+  .forth-content p,
+  .forth-content h1 {
     text-align: center;
     margin-left: 0 !important;
   }
 
-  .forth-content img{
+  .forth-content img {
     width: 100%;
     height: 100%;
   }
@@ -142,10 +153,10 @@
     font-size: 30px;
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
       sans-serif;
-      position: relative;
+    position: relative;
   }
 
-  .footer-custom .developer-custom .arrow{
+  .footer-custom .developer-custom .arrow {
     position: absolute;
     bottom: 5%;
     right: 5%;
@@ -158,6 +169,10 @@
 
   .footer-custom {
     width: 100%;
+  }
+
+  ol, ul{
+    padding-left: 0 !important;
   }
 }
 
@@ -173,10 +188,10 @@
     text-align: center;
   }
   /* footer */
-  .footer-custom .row div:nth-child(1){
+  .footer-custom .row div:nth-child(1) {
     margin: 0 auto;
   }
-  .footer-custom img{
+  .footer-custom img {
     margin-left: 0;
   }
   .footer-custom .row div {
